@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Local state
+labs/*/.chroma/
+labs/*/memory.db
+data/
+
+# Node / UI
+ui/rag-ui/node_modules/
+ui/rag-ui/dist/
+
+# Env
+.env
+ui/rag-ui/.env
